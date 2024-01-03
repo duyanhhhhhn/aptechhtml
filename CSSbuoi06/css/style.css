@@ -1,0 +1,238 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Segoe UI", Arial, sans-serif;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+img {
+	border: none;
+	vertical-align: top;
+}
+
+div#layout {
+	border: 1px solid #a3a2a3;
+	margin: 20px auto;
+	width: 900px;
+}
+div.hLeft{
+	float: left;
+}
+div.hRight{
+	float: right;
+}
+div#gNav{
+	clear: both;
+}
+ul.hButton li{
+	display: inline;
+}
+ul.hNav li{
+	display: inline;
+}
+div.hRight ul.hButton{
+	text-align: right;
+}
+ div.hRight ul.hNav{
+	text-align: right;
+}
+ul.hNav li{
+	border-right: 1px solid #333;
+	padding: 0 5px ;
+}
+div.hRight ul.hNav li.last{
+	border-right: none;
+	padding-right: 0;
+}
+div#header{
+	padding: 10px;
+}
+div.hRight ul.hButton{
+	margin-bottom: 37px;
+}
+div.hRight ul.hNav{
+	margin-bottom: 10px;
+}
+div#gNav ul li{
+	border-right: 1px solid white ;
+	display: inline;
+}
+div#gNav ul li.last {
+	border-right: none;
+	padding-right: 0;
+}
+div#gNav ul {
+	background: url(../img/bg_gnav.gif) repeat-x;
+	border: 1px solid black;
+}
+div#gNav ul{
+	height: 22px;
+	padding: 12px 0 ;
+}
+div#gNav ul li a{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+div#gNav ul li a:hover {
+	color:black;
+}
+div#content{
+	float: left;
+	width: 620px;
+}
+div#sidebar{
+	float: right;
+	width: 240px;
+}
+div#footer{
+	clear: both;
+}
+div#content h2{
+	border-bottom: 1px solid #666666;
+	font-size: 120%;
+}
+div#content div.newProduct p.image {
+	float: left;
+	width: 241px;
+}
+ div#content div.newProduct div {
+ 	float: right;
+ 	width: 350px;
+ }
+ div#content div.newProduct div h3 {
+ 	color: #5870e6;
+ }
+div#content ul.thumbList {
+   	clear: both;
+ }
+div#content ul.thumbList {
+   	clear: both;
+}
+div#pageBody {
+	padding: 20px 10px;
+}
+ div#content h2 {
+ margin-bottom: 10px;
+ }
+ div#content div.newProduct div h3 {
+ 	margin-bottom: 10px;
+ }
+ div#content ul.thumbList {
+ 	background: #f9f8f8;
+ 	border: 1px solid #ebeaea;
+ 	padding: 10px;
+ }
+   div#content ul.thumbList li {
+   	display: inline;
+	padding-right: 8px;
+   }
+   div#content div.newProduct::after{
+	clear: both;
+	content: " . ";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	}
+ div#content div.newProduct {
+ 	margin-bottom: 20px;
+ }
+ div#content dl.news {
+ 	padding: 10px 0 40px 10px;
+ }
+ div#content dl.news dd {
+	border-bottom: 1px dotted #000;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+ }
+ div#content dl.news dd.last {
+ 	border-bottom: none;
+ 	margin-bottom: 0;
+ 	padding-bottom: 0;
+ }
+ div#content dl.news dd a {
+ 	text-decoration: none;
+ }
+ div#content dl.news dd a:hover {
+ 	text-decoration: underline;
+ }
+ div#content p.banner {
+ 	/* Canh giữa cho banner contact và giãn cách với Footer */
+ 	text-align: center;
+ 	margin-bottom: 40px;
+ }
+ div#sidebar h2{
+	border-bottom: 1px solid #333;
+	font-size: 120%;
+	margin-bottom : 10px;
+
+ }
+ div#sidebar ul.linkList li{
+	background: url(../img/ico_arrow.gif) no-repeat left center;
+	padding-left: 15px;
+ }
+ div#sidebar ul.linkList {
+ 	padding: 0 0 30px 10px;
+ }
+   div#sidebar ul.bannerList {
+   	padding-top: 10px;
+   }
+ div#sidebar ul.bannerList li {
+  	margin-bottom: 5px;
+}
+div#footer div.fLeft{
+	float: left;
+	width: 340px;
+}
+div#footer div.fRight{
+	float: right;
+	width : 530px;
+}
+div#footer:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+div#footer div.fRight ul{
+	text-align: right;
+}
+div#footer div.fRight ul li{
+	display: inline;
+	border-right: 1px solid #333;
+	padding: 0 10px;
+}
+DIV#footer div.fRight ul li.last{
+	border-right: none;
+	padding-right: 0;
+}
+div#footer div.fRight p {
+	text-align: right;
+}
+div#footer {
+	border-top: 1px solid #a3a2a3;
+}
+div#footer{
+	padding: 10px;
+}
+ div#footer div.fRight {
+ margin-top: 40px;
+ }
+ div#footer div.fRight ul {
+  margin-bottom: 10px;
+ }
+ a{
+	text-decoration: none;
+	color: blue;
+ }

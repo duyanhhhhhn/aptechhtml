@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin sinh viên</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://tuyensinh.ut.edu.vn/wp-content/uploads/2022/03/275244853_4747835955339153_6364076342905238115_n.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="row">
+        <div class="col-2">
+            <form action="">
+                <div>
+                    <label for="mssv">Mã số sinh viên :  </label>
+                    <input type="text" id="mssv">
+                </div>
+                <div>
+                    <label for="hoTen">Họ và tên : </label>
+                    <input type="text" id="hoTen">
+                </div>
+                <div>
+                    <label for="DTB">Điểm trung bình : </label>
+                    <input type="number" id="DTB">
+                </div>
+                <div>
+                    <label for="gioiTinh">Giới tính : </label>
+                    <input type="radio" name="gt" id="gioiTinh" checked>Nam
+                    <input type="radio" name="gt" id="gioiTinh">Nữ
+                </div>
+                <button id="btn" class="btn-green">Thêm</button>
+                <button id="btn-search" class="btn-green">Tìm sinh viên</button>
+                <input type="checkbox" id="chk-filter">Chỉ hiện thị sinh viên đậu</input>
+        
+            </form>
+        </div>
+        <div class="col-10">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Mã sinh viên </th> 
+                        <th>Họ và tên </th> 
+                        <th>Điểm trung bình </th> 
+                        <th>Giới tính </th> 
+                        <th>Chức năng</th>
+                    </tr>
+                </thead>
+                <tbody id="info"></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>

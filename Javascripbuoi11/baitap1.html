@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai tap 2 </title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="mssv"> MA so : </label>
+            <input type="text" id="mssv">
+        </div>
+        <div>
+            <label for="hoten"> Ho va ten : </label>
+            <input type="text" id="hoten">
+        </div>
+        <div>
+            <label for="dtb"> DTB : </label>
+            <input type="number" id="DTB">
+        </div>
+        <div>
+            <label for="gioi tinh"> Gioi tinh : </label>
+            <input type="radio" name="gioitinh " name="gt" checked>Nam
+            <input type="radio" name="gioitinh " name="gt"  checked>Nữ
+        </div>
+        <button id="btn">Thêm </button>
+        <button id="btn-search"> Tìm sinh viên</button>
+        <button id="btn-filter">Lọc ra sinh viên đậu</button>
+        <button id="btn-cancel-filter">Huỷ lọc</button>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th> Mã SV</th>
+                <th> Họ tên</th>
+                <th> Điểm TB</th>
+                <th> Giới tính </th>
+            </tr>
+        </thead>
+        <tbody id="info">
+    
+        </tbody>
+    </table>
+    <script src="script2.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+#number{
+    width: 100%;
+    padding: 10px;
+}
+button{
+    width: 100%;
+    background-color: grey;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: blanchedalmond;
+}
